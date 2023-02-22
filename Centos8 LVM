@@ -1,6 +1,5 @@
 #### 1. fdisk 명령어로 파티션을 생성하는 것과 pvcreate의 차이점이 무엇인지?
-
-
+ㄴㅇ
 **1) fdisk/dev/sdb 해서 Primary나 Extended 파티션을 만드는 경우**
 
       작업을 진행하면서 fdisk 파티션을 생성할 때 참고 사항이 있음
