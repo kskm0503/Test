@@ -1,0 +1,2258 @@
+** IITP San Switch 조정""
+
+1. San Switch 기본 정보
+
+Defined configuration:
+ cfg:   IITP_SAN01
+                esx10_h1_sw1_p13_p0_VSP_G600_1;  esx10_h1_sw1_p13_p23_HUSVM_4A;
+
+                esx11_h1_sw1_p14_p0_VSP_G600_1;  esx11_h1_sw1_p14_p23_HUSVM_4A;
+
+                esx12_h1_sw1_p15_p0_VSP_G600_1;  esx12_h1_sw1_p15_P23_HUSVM_4A;
+
+                esx13_h1_sw1_p2_p0_VSP_G600_1; 
+                esx14_h1_sw1_p3_p0_VSP_G600_1;
+                esx15_h1_sw1_p16_p0_VSP_G600_1;
+                esx16_h1_sw1_p17_p0_VSP_G600_1;
+                esx17_h1_sw1_p18_p0_VSP_G600_1;
+                esx18_h1_sw1_p19_p0_VSP_G600_1;
+                esx19_h1_sw1_p24_p1_VSP_G600_1;
+                esx20_h1_sw1_p25_p1_VSP_G600_1;
+ 
+                esx1_h1_sw1_p4_p0_VSP_G600_1; esx1_h1_sw1_p4_p23_HUSVM_4A;                 
+
+                esx2_h1_sw1_p5_p0_VSP_G600_1; esx2_h1_sw1_p5_p23_HUSVM_4A;
+ 
+                esx3_h1_sw1_p6_p0_VSP_G600_1; esx3_h1_sw1_p6_p23_HUSVM_4A;
+ 
+                esx4_h1_sw1_p7_p0_VSP_G600_1; esx4_h1_sw1_p7_p23_HUSVM_4A;
+ 
+                esx5_h1_sw1_p8_p0_VSP_G600_1; esx5_h1_sw1_p8_p23_HUSVM_4A;
+ 
+                esx6_h1_sw1_p9_p0_VSP_G600_1; esx6_h1_sw1_p9_p23_HUSVM_4A;
+ 
+                esx7_h1_sw1_p10_p0_VSP_G600_1; esx7_h1_sw1_p10_p23_HUSVM_4A;
+ 
+                esx8_h1_sw1_p11_p0_VSP_G600_1; esx8_h1_sw1_p11_p23_HUSVM_4A;
+ 
+                esx9_h1_sw1_p12_p0_VSP_G600_1; esx9_h1_sw1_p12_p23_HUSVM_4A;
+ 
+                esx1_h1_sw1_p4_FS5035; 
+                esx2_h1_sw1_p5_FS5035;
+                esx3_h1_sw1_p6_FS5035; 
+                esx4_h1_sw1_p7_FS5035;
+                esx5_h1_sw1_p8_FS5035; 
+                esx6_h1_sw1_p9_FS5035;
+                esx7_h1_sw1_p10_FS5035; 
+                esx8_h1_sw1_p11_FS5035;
+                esx9_h1_sw1_p12_FS5035;
+                esx10_h1_sw1_p13_FS5035;
+                esx11_h1_sw1_p14_FS5035; 
+                esx12_h1_sw1_p15_FS5035;
+                esx13_h1_sw1_p2_FS5035; 
+                esx14_h1_sw1_p3_FS5035;
+                esx15_h1_sw1_p16_FS5035; 
+                esx16_h1_sw1_p17_FS5035;
+                esx17_h1_sw1_p18_FS5035; 
+                esx18_h1_sw1_p19_FS5035;
+                esx19_h1_sw1_p24_FS5035; 
+                esx20_h1_sw1_p25_FS5035;
+      
+                esx21_h1_sw1_p28_FS5035; esx22_h1_sw1_p29_FS5035;
+                esx21_h1_sw1_p28_HUS_VM; esx22_h1_sw1_p29_HUS_VM;
+                esx21_h1_sw1_p28_VSP_G600; esx22_h1_sw1_p29_VSP_G600
+
+
+ zone:  esx10_h1_sw1_p13_FS5035
+                1,13; 1,26; 1,27
+ zone:  esx10_h1_sw1_p13_p0_VSP_G600_1
+                1,13; 1,0
+ zone:  esx10_h1_sw1_p13_p23_HUSVM_4A
+                1,13; 1,23
+ zone:  esx11_h1_sw1_p14_FS5035
+                1,14; 1,26; 1,27
+ zone:  esx11_h1_sw1_p14_p0_VSP_G600_1
+                1,14; 1,0
+ zone:  esx11_h1_sw1_p14_p23_HUSVM_4A
+                1,14; 1,23
+ zone:  esx12_h1_sw1_p15_FS5035
+                1,15; 1,26; 1,27
+ zone:  esx12_h1_sw1_p15_P23_HUSVM_4A
+                1,15; 1,23
+ zone:  esx12_h1_sw1_p15_p0_VSP_G600_1
+                1,15; 1,0
+ zone:  esx12_h1_sw1_p15_p23_HUSVM_4A
+                1,15; 1,23
+ zone:  esx13_h1_sw1_p2_FS5035
+                1,2; 1,26; 1,27
+ zone:  esx13_h1_sw1_p2_p0_VSP_G600_1
+                1,2; 1,1
+ zone:  esx14_h1_sw1_p3_FS5035
+                1,3; 1,26; 1,27
+ zone:  esx14_h1_sw1_p3_p0_VSP_G600_1
+                1,3; 1,1
+ zone:  esx15_h1_sw1_p16_FS5035
+                1,16; 1,26; 1,27
+ zone:  esx15_h1_sw1_p16_p0_VSP_G600_1
+                1,16; 1,1
+ zone:  esx16_h1_sw1_p17_FS5035
+                1,17; 1,26; 1,27
+ zone:  esx16_h1_sw1_p17_p0_VSP_G600_1
+                1,17; 1,1
+ zone:  esx17_h1_sw1_p18_FS5035
+                1,18; 1,26; 1,27
+ zone:  esx17_h1_sw1_p18_p0_VSP_G600_1
+                1,18; 1,1
+ zone:  esx18_h1_sw1_p19_FS5035
+                1,19; 1,26; 1,27
+ zone:  esx18_h1_sw1_p19_p0_VSP_G600_1
+                1,19; 1,1
+ zone:  esx19_h1_sw1_p24_FS5035
+                1,24; 1,26; 1,27
+ zone:  esx19_h1_sw1_p24_p1_VSP_G600_1
+                1,1; 1,24
+ zone:  esx1_h1_sw1_p4_FS5035
+                1,4; 1,26; 1,27
+ zone:  esx1_h1_sw1_p4_p0_VSP_G600_1
+                1,4; 1,0
+ zone:  esx1_h1_sw1_p4_p23_HUSVM_4A
+                1,4; 1,23
+ zone:  esx20_h1_sw1_p25_FS5035
+                1,25; 1,26; 1,27
+ zone:  esx20_h1_sw1_p25_p1_VSP_G600_1
+                1,1; 1,25
+ zone:  esx21_h1_sw1_p28_FS5035
+                1,28; 1,26; 1,27
+ zone:  esx21_h1_sw1_p28_HUS_VM
+                1,28; 1,20; 1,21; 1,22; 1,23
+ zone:  esx21_h1_sw1_p28_VSP_G600
+                1,28; 1,0; 1,1
+ zone:  esx22_h1_sw1_p29_FS5035
+                1,29; 1,26; 1,27
+ zone:  esx22_h1_sw1_p29_HUS_VM
+                1,29; 1,20; 1,21; 1,22; 1,23
+ zone:  esx22_h1_sw1_p29_VSP_G600
+                1,29; 1,0; 1,1
+ zone:  esx2_h1_sw1_p5_FS5035
+                1,5; 1,26; 1,27
+ zone:  esx2_h1_sw1_p5_p0_VSP_G600_1
+                1,5; 1,0
+ zone:  esx2_h1_sw1_p5_p23_HUSVM_4A
+                1,5; 1,23
+ zone:  esx3_h1_sw1_p6_FS5035
+                1,6; 1,26; 1,27
+ zone:  esx3_h1_sw1_p6_p0_VSP_G600_1
+                1,6; 1,0
+ zone:  esx3_h1_sw1_p6_p23_HUSVM_4A
+                1,6; 1,23
+ zone:  esx4_h1_sw1_p7_FS5035
+                1,7; 1,26; 1,27
+ zone:  esx4_h1_sw1_p7_p0_VSP_G600_1
+                1,7; 1,0
+ zone:  esx4_h1_sw1_p7_p23_HUSVM_4A
+                1,7; 1,23
+ zone:  esx5_h1_sw1_p8_FS5035
+                1,8; 1,26; 1,27
+ zone:  esx5_h1_sw1_p8_p0_VSP_G600_1
+                1,8; 1,0
+ zone:  esx5_h1_sw1_p8_p23_HUSVM_4A
+                1,8; 1,23
+ zone:  esx6_h1_sw1_p9_FS5035
+                1,9; 1,26; 1,27
+ zone:  esx6_h1_sw1_p9_p0_VSP_G600_1
+                1,9; 1,0
+ zone:  esx6_h1_sw1_p9_p23_HUSVM_4A
+                1,9; 1,23
+ zone:  esx7_h1_sw1_p10_FS5035
+                1,10; 1,26; 1,27
+ zone:  esx7_h1_sw1_p10_p0_VSP_G600_1
+                1,10; 1,0
+ zone:  esx7_h1_sw1_p10_p23_HUSVM_4A
+                1,10; 1,23
+ zone:  esx8_h1_sw1_p11_FS5035
+                1,11; 1,26; 1,27
+ zone:  esx8_h1_sw1_p11_p0_VSP_G600_1
+                1,11; 1,0
+ zone:  esx8_h1_sw1_p11_p23_HUSVM_4A
+                1,11; 1,23
+ zone:  esx9_h1_sw1_p12_FS5035
+                1,12; 1,26; 1,27
+ zone:  esx9_h1_sw1_p12_p0_VSP_G600_1
+                1,12; 1,0
+ zone:  esx9_h1_sw1_p12_p23_HUSVM_4A
+                1,12; 1,23
+ alias: FS5035A 1,26
+ alias: FS5035B 1,27
+ alias: esx1_h1_sw1_p4
+                1,4
+
+Effective configuration:
+ cfg:   IITP_SAN01
+ zone:  esx10_h1_sw1_p13_FS5035
+                1,13
+                1,26
+                1,27
+ zone:  esx10_h1_sw1_p13_p0_VSP_G600_1
+                1,13
+                1,0
+ zone:  esx10_h1_sw1_p13_p23_HUSVM_4A
+                1,13
+                1,23
+ zone:  esx11_h1_sw1_p14_FS5035
+                1,14
+                1,26
+                1,27
+ zone:  esx11_h1_sw1_p14_p0_VSP_G600_1
+                1,14
+                1,0
+ zone:  esx11_h1_sw1_p14_p23_HUSVM_4A
+                1,14
+                1,23
+ zone:  esx12_h1_sw1_p15_FS5035
+                1,15
+                1,26
+                1,27
+ zone:  esx12_h1_sw1_p15_P23_HUSVM_4A
+                1,15
+                1,23
+ zone:  esx12_h1_sw1_p15_p0_VSP_G600_1
+                1,15
+                1,0
+ zone:  esx13_h1_sw1_p2_FS5035
+                1,2
+                1,26
+                1,27
+ zone:  esx13_h1_sw1_p2_p0_VSP_G600_1
+                1,2
+                1,1
+ zone:  esx14_h1_sw1_p3_FS5035
+                1,3
+                1,26
+                1,27
+ zone:  esx14_h1_sw1_p3_p0_VSP_G600_1
+                1,3
+                1,1
+ zone:  esx15_h1_sw1_p16_FS5035
+                1,16
+                1,26
+                1,27
+ zone:  esx15_h1_sw1_p16_p0_VSP_G600_1
+                1,16
+                1,1
+ zone:  esx16_h1_sw1_p17_FS5035
+                1,17
+                1,26
+                1,27
+ zone:  esx16_h1_sw1_p17_p0_VSP_G600_1
+                1,17
+                1,1
+ zone:  esx17_h1_sw1_p18_FS5035
+                1,18
+                1,26
+                1,27
+ zone:  esx17_h1_sw1_p18_p0_VSP_G600_1
+                1,18
+                1,1
+ zone:  esx18_h1_sw1_p19_FS5035
+                1,19
+                1,26
+                1,27
+ zone:  esx18_h1_sw1_p19_p0_VSP_G600_1
+                1,19
+                1,1
+ zone:  esx19_h1_sw1_p24_FS5035
+                1,24
+                1,26
+                1,27
+ zone:  esx19_h1_sw1_p24_p1_VSP_G600_1
+                1,1
+                1,24
+ zone:  esx1_h1_sw1_p4_FS5035
+                1,4
+                1,26
+                1,27
+ zone:  esx1_h1_sw1_p4_p0_VSP_G600_1
+                1,4
+                1,0
+ zone:  esx1_h1_sw1_p4_p23_HUSVM_4A
+                1,4
+                1,23
+ zone:  esx20_h1_sw1_p25_FS5035
+                1,25
+                1,26
+                1,27
+ zone:  esx20_h1_sw1_p25_p1_VSP_G600_1
+                1,1
+                1,25
+ zone:  esx21_h1_sw1_p28_FS5035
+                1,28
+                1,26
+                1,27
+ zone:  esx21_h1_sw1_p28_HUS_VM
+                1,28
+                1,20
+                1,21
+                1,22
+                1,23
+ zone:  esx21_h1_sw1_p28_VSP_G600
+                1,28
+                1,0
+                1,1
+ zone:  esx22_h1_sw1_p29_FS5035
+                1,29
+                1,26
+                1,27
+ zone:  esx22_h1_sw1_p29_HUS_VM
+                1,29
+                1,20
+                1,21
+                1,22
+                1,23
+ zone:  esx22_h1_sw1_p29_VSP_G600
+                1,29
+                1,0
+                1,1
+ zone:  esx2_h1_sw1_p5_FS5035
+                1,5
+                1,26
+                1,27
+ zone:  esx2_h1_sw1_p5_p0_VSP_G600_1
+                1,5
+                1,0
+ zone:  esx2_h1_sw1_p5_p23_HUSVM_4A
+                1,5
+                1,23
+ zone:  esx3_h1_sw1_p6_FS5035
+                1,6
+                1,26
+                1,27
+ zone:  esx3_h1_sw1_p6_p0_VSP_G600_1
+                1,6
+                1,0
+ zone:  esx3_h1_sw1_p6_p23_HUSVM_4A
+                1,6
+                1,23
+ zone:  esx4_h1_sw1_p7_FS5035
+                1,7
+                1,26
+                1,27
+ zone:  esx4_h1_sw1_p7_p0_VSP_G600_1
+                1,7
+                1,0
+ zone:  esx4_h1_sw1_p7_p23_HUSVM_4A
+                1,7
+                1,23
+ zone:  esx5_h1_sw1_p8_FS5035
+                1,8
+                1,26
+                1,27
+ zone:  esx5_h1_sw1_p8_p0_VSP_G600_1
+                1,8
+                1,0
+ zone:  esx5_h1_sw1_p8_p23_HUSVM_4A
+                1,8
+                1,23
+ zone:  esx6_h1_sw1_p9_FS5035
+                1,9
+                1,26
+                1,27
+ zone:  esx6_h1_sw1_p9_p0_VSP_G600_1
+                1,9
+                1,0
+ zone:  esx6_h1_sw1_p9_p23_HUSVM_4A
+                1,9
+                1,23
+ zone:  esx7_h1_sw1_p10_FS5035
+                1,10
+                1,26
+                1,27
+ zone:  esx7_h1_sw1_p10_p0_VSP_G600_1
+                1,10
+                1,0
+ zone:  esx7_h1_sw1_p10_p23_HUSVM_4A
+                1,10
+                1,23
+ zone:  esx8_h1_sw1_p11_FS5035
+                1,11
+                1,26
+                1,27
+ zone:  esx8_h1_sw1_p11_p0_VSP_G600_1
+                1,11
+                1,0
+ zone:  esx8_h1_sw1_p11_p23_HUSVM_4A
+                1,11
+                1,23
+ zone:  esx9_h1_sw1_p12_FS5035
+                1,12
+                1,26
+                1,27
+ zone:  esx9_h1_sw1_p12_p0_VSP_G600_1
+                1,12
+                1,0
+ zone:  esx9_h1_sw1_p12_p23_HUSVM_4A
+                1,12
+                1,23
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2. San Switch 2번 기본정보
+
+
+ cfg:   IITP_SAN02
+ 
+                esx1_h2_sw2_p4_p0_VSP_G600_2; esx1_h2_sw2_p4_p23_HUSVM_4B; 
+   
+                esx2_h2_sw2_p5_p0_VSP_G600_2; esx2_h2_sw2_p5_p23_HUSVM_4B;
+ 
+                esx3_h2_sw2_p6_p0_VSP_G600_2; esx3_h2_sw2_p6_p23_HUSVM_4B;
+
+                esx4_h2_sw2_p7_p0_VSP_G600_2; esx4_h2_sw2_p7_p23_HUSVM_4B;
+
+                esx5_h2_sw2_p8_p0_VSP_G600_2; esx5_h2_sw2_p8_p23_HUSVM_4B;
+
+                esx6_h2_sw2_p9_p0_VSP_G600_2; esx6_h2_sw2_p9_p23_HUSVM_4B;
+
+                esx7_h2_sw2_p10_p0_VSP_G600_2; esx7_h2_sw2_p10_p23_HUSVM_4B;
+
+                esx8_h2_sw2_p11_p0_VSP_G600_2; esx8_h2_sw2_p11_p23_HUSVM_4B;
+
+                esx9_h2_sw2_p12_p0_VSP_G600_2; esx9_h2_sw2_p12_p23_HUSVM_4B;
+
+                esx10_h2_sw2_p13_p0_VSP_G600_2; esx10_h2_sw2_p13_p23_HUSVM_4B;
+
+                esx11_h2_sw2_p14_p0_VSP_G600_2; esx11_h2_sw2_p14_p23_HUSVM_4B;
+
+                esx12_h2_sw2_p15_p0_VSP_G600_2; esx12_h2_sw2_p15_p23_HUSVM_4B;
+                            
+                esx13_h2_sw2_p2_p0_VSP_G600_2; 
+
+                esx14_h2_sw2_p3_p0_VSP_G600_2;
+
+                esx15_h2_sw2_p16_p0_VSP_G600_2;
+
+                esx16_h2_sw2_p17_p0_VSP_G600_2;
+
+                esx17_h2_sw2_p18_p0_VSP_G600_2;
+
+                esx18_h2_sw2_p19_p0_VSP_G600_2;
+
+                esx19_h2_sw2_p24_p1_VSP_G600_2; 
+ 	
+                esx20_h2_sw2_p25_p1_VSP_G600_2;
+ 
+
+                esx1_h2_sw2_p4_FS5035; 
+                
+                esx2_h2_sw2_p5_FS5035;
+
+                esx3_h2_sw2_p6_FS5035; esx4_h2_sw2_p7_FS5035;
+
+                esx5_h2_sw2_p8_FS5035; esx6_h2_sw2_p9_FS5035;
+
+                esx7_h2_sw2_p10_FS5035; esx8_h2_sw2_p11_FS5035;
+
+                esx9_h2_sw2_p12_FS5035; esx10_h2_sw2_p13_FS5035;
+
+                esx11_h2_sw2_p14_FS5035; esx12_h2_sw2_p15_FS5035;
+
+
+                esx13_h2_sw2_p2_FS5035; esx14_h2_sw2_p3_FS5035;
+
+                esx15_h2_sw2_p16_FS5035; esx16_h2_sw2_p17_FS5035;
+
+                esx17_h2_sw2_p18_FS5035; esx18_h2_sw2_p19_FS5035;
+
+                esx19_h2_sw2_p24_FS5035; esx20_h2_sw2_p25_FS5035;
+
+
+                esx21_h2_sw2_p28_VSP_G600; esx22_h2_sw2_p29_VSP_G600;
+
+                esx21_h2_sw2_p28_HUS_VM; esx22_h2_sw2_p29_HUS_VM;
+
+                esx21_h2_sw2_p28_FS5035; esx22_h2_sw2_p29_FS5035
+
+
+
+ zone:  esx10_h2_sw2_p13_FS5035
+                1,13; 1,26; 1,27
+ zone:  esx10_h2_sw2_p13_p0_VSP_G600_2
+                1,13; 1,0
+ zone:  esx10_h2_sw2_p13_p23_HUSVM_4B
+                1,13; 1,23
+ zone:  esx11_h2_sw2_p14_FS5035
+                1,14; 1,26; 1,27
+ zone:  esx11_h2_sw2_p14_p0_VSP_G600_2
+                1,14; 1,0
+ zone:  esx11_h2_sw2_p14_p23_HUSVM_4B
+                1,14; 1,23
+ zone:  esx12_h2_sw2_p15_FS5035
+                1,15; 1,26; 1,27
+ zone:  esx12_h2_sw2_p15_p0_VSP_G600_2
+                1,15; 1,0
+ zone:  esx12_h2_sw2_p15_p23_HUSVM_4B
+                1,15; 1,23
+ zone:  esx13_h2_sw2_p2_FS5035
+                1,2; 1,26; 1,27
+ zone:  esx13_h2_sw2_p2_p0_VSP_G600_2
+                1,2; 1,1
+ zone:  esx14_h2_sw2_p3_FS5035
+                1,3; 1,26; 1,27
+ zone:  esx14_h2_sw2_p3_p0_VSP_G600_2
+                1,3; 1,1
+ zone:  esx15_h2_sw2_p16_FS5035
+                1,16; 1,26; 1,27
+ zone:  esx15_h2_sw2_p16_p0_VSP_G600_2
+                1,16; 1,1
+ zone:  esx16_h2_sw2_p17_FS5035
+                1,17; 1,26; 1,27
+ zone:  esx16_h2_sw2_p17_p0_VSP_G600_2
+                1,17; 1,1
+ zone:  esx17_h2_sw2_p18_FS5035
+                1,18; 1,26; 1,27
+ zone:  esx17_h2_sw2_p18_p0_VSP_G600_2
+                1,18; 1,1
+ zone:  esx18_h2_sw2_p19_FS5035
+                1,19; 1,26; 1,27
+ zone:  esx18_h2_sw2_p19_p0_VSP_G600_2
+                1,19; 1,1
+ zone:  esx19_h2_sw2_p24_FS5035
+                1,24; 1,26; 1,27
+ zone:  esx19_h2_sw2_p24_p1_VSP_G600_2
+                1,1; 1,24
+ zone:  esx1_h2_sw2_p4_FS5035
+                1,4; 1,26; 1,27
+ zone:  esx1_h2_sw2_p4_p0_VSP_G600_2
+                1,4; 1,0
+ zone:  esx1_h2_sw2_p4_p23_HUSVM_4B
+                1,4; 1,23
+ zone:  esx20_h2_sw2_p25_FS5035
+                1,25; 1,26; 1,27
+ zone:  esx20_h2_sw2_p25_p1_VSP_G600_2
+                1,1; 1,25
+ zone:  esx21_h2_sw2_p28_FS5035
+                1,28; 1,26; 1,27
+ zone:  esx21_h2_sw2_p28_HUS_VM
+                1,28; 1,20; 1,21; 1,22; 1,23
+ zone:  esx21_h2_sw2_p28_VSP_G600
+                1,28; 1,0; 1,1
+ zone:  esx22_h2_sw2_p29_FS5035
+                1,29; 1,26; 1,27
+ zone:  esx22_h2_sw2_p29_HUS_VM
+                1,29; 1,20; 1,21; 1,22; 1,23
+ zone:  esx22_h2_sw2_p29_VSP_G600
+                1,29; 1,0; 1,1
+ zone:  esx2_h2_sw2_p5_FS5035
+                1,5; 1,26; 1,27
+ zone:  esx2_h2_sw2_p5_p0_VSP_G600_2
+                1,5; 1,0
+ zone:  esx2_h2_sw2_p5_p23_HUSVM_4B
+                1,5; 1,23
+ zone:  esx3_h2_sw2_p6_FS5035
+                1,6; 1,26; 1,27
+ zone:  esx3_h2_sw2_p6_p0_VSP_G600_2
+                1,6; 1,0
+ zone:  esx3_h2_sw2_p6_p23_HUSVM_4B
+                1,6; 1,23
+ zone:  esx4_h2_sw2_p7_FS5035
+                1,7; 1,26; 1,27
+ zone:  esx4_h2_sw2_p7_p0_VSP_G600_2
+                1,7; 1,0
+ zone:  esx4_h2_sw2_p7_p23_HUSVM_4B
+                1,7; 1,23
+ zone:  esx5_h2_sw2_p8_FS5035
+                1,8; 1,26; 1,27
+ zone:  esx5_h2_sw2_p8_p0_VSP_G600_2
+                1,8; 1,0
+ zone:  esx5_h2_sw2_p8_p23_HUSVM_4B
+                1,8; 1,23
+ zone:  esx6_h2_sw2_p9_FS5035
+                1,9; 1,26; 1,27
+ zone:  esx6_h2_sw2_p9_p0_VSP_G600_2
+                1,9; 1,0
+ zone:  esx6_h2_sw2_p9_p23_HUSVM_4B
+                1,9; 1,23
+ zone:  esx7_h2_sw2_p10_FS5035
+                1,10; 1,26; 1,27
+ zone:  esx7_h2_sw2_p10_p0_VSP_G600_2
+                1,10; 1,0
+ zone:  esx7_h2_sw2_p10_p23_HUSVM_4B
+                1,10; 1,23
+ zone:  esx8_h2_sw2_p11_FS5035
+                1,11; 1,26; 1,27
+ zone:  esx8_h2_sw2_p11_p0_VSP_G600_2
+                1,11; 1,0
+ zone:  esx8_h2_sw2_p11_p23_HUSVM_4B
+                1,11; 1,23
+ zone:  esx9_h2_sw2_p12_FS5035
+                1,12; 1,26; 1,27
+ zone:  esx9_h2_sw2_p12_p0_VSP_G600_2
+                1,12; 1,0
+ zone:  esx9_h2_sw2_p12_p23_HUSVM_4B
+                1,12; 1,23
+ alias: FS5035A 1,26
+ alias: FS5035B 1,27
+
+Effective configuration:
+ cfg:   IITP_SAN02
+ zone:  esx10_h2_sw2_p13_FS5035
+                1,13
+                1,26
+                1,27
+ zone:  esx10_h2_sw2_p13_p0_VSP_G600_2
+                1,13
+                1,0
+ zone:  esx10_h2_sw2_p13_p23_HUSVM_4B
+                1,13
+                1,23
+ zone:  esx11_h2_sw2_p14_FS5035
+                1,14
+                1,26
+                1,27
+ zone:  esx11_h2_sw2_p14_p0_VSP_G600_2
+                1,14
+                1,0
+ zone:  esx11_h2_sw2_p14_p23_HUSVM_4B
+                1,14
+                1,23
+ zone:  esx12_h2_sw2_p15_FS5035
+                1,15
+                1,26
+                1,27
+ zone:  esx12_h2_sw2_p15_p0_VSP_G600_2
+                1,15
+                1,0
+ zone:  esx12_h2_sw2_p15_p23_HUSVM_4B
+                1,15
+                1,23
+ zone:  esx13_h2_sw2_p2_FS5035
+                1,2
+                1,26
+                1,27
+ zone:  esx13_h2_sw2_p2_p0_VSP_G600_2
+                1,2
+                1,1
+ zone:  esx14_h2_sw2_p3_FS5035
+                1,3
+                1,26
+                1,27
+ zone:  esx14_h2_sw2_p3_p0_VSP_G600_2
+                1,3
+                1,1
+ zone:  esx15_h2_sw2_p16_FS5035
+                1,16
+                1,26
+                1,27
+ zone:  esx15_h2_sw2_p16_p0_VSP_G600_2
+                1,16
+                1,1
+ zone:  esx16_h2_sw2_p17_FS5035
+                1,17
+                1,26
+                1,27
+ zone:  esx16_h2_sw2_p17_p0_VSP_G600_2
+                1,17
+                1,1
+ zone:  esx17_h2_sw2_p18_FS5035
+                1,18
+                1,26
+                1,27
+ zone:  esx17_h2_sw2_p18_p0_VSP_G600_2
+                1,18
+                1,1
+ zone:  esx18_h2_sw2_p19_FS5035
+                1,19
+                1,26
+                1,27
+ zone:  esx18_h2_sw2_p19_p0_VSP_G600_2
+                1,19
+                1,1
+ zone:  esx19_h2_sw2_p24_FS5035
+                1,24
+                1,26
+                1,27
+ zone:  esx19_h2_sw2_p24_p1_VSP_G600_2
+                1,1
+                1,24
+ zone:  esx1_h2_sw2_p4_FS5035
+                1,4
+                1,26
+                1,27
+ zone:  esx1_h2_sw2_p4_p0_VSP_G600_2
+                1,4
+                1,0
+ zone:  esx1_h2_sw2_p4_p23_HUSVM_4B
+                1,4
+                1,23
+ zone:  esx20_h2_sw2_p25_FS5035
+                1,25
+                1,26
+                1,27
+ zone:  esx20_h2_sw2_p25_p1_VSP_G600_2
+                1,1
+                1,25
+ zone:  esx21_h2_sw2_p28_FS5035
+                1,28
+                1,26
+                1,27
+ zone:  esx21_h2_sw2_p28_HUS_VM
+                1,28
+                1,20
+                1,21
+                1,22
+                1,23
+ zone:  esx21_h2_sw2_p28_VSP_G600
+                1,28
+                1,0
+                1,1
+ zone:  esx22_h2_sw2_p29_FS5035
+                1,29
+                1,26
+                1,27
+ zone:  esx22_h2_sw2_p29_HUS_VM
+                1,29
+                1,20
+                1,21
+                1,22
+                1,23
+ zone:  esx22_h2_sw2_p29_VSP_G600
+                1,29
+                1,0
+                1,1
+ zone:  esx2_h2_sw2_p5_FS5035
+                1,5
+                1,26
+                1,27
+ zone:  esx2_h2_sw2_p5_p0_VSP_G600_2
+                1,5
+                1,0
+ zone:  esx2_h2_sw2_p5_p23_HUSVM_4B
+                1,5
+                1,23
+ zone:  esx3_h2_sw2_p6_FS5035
+                1,6
+                1,26
+                1,27
+ zone:  esx3_h2_sw2_p6_p0_VSP_G600_2
+                1,6
+                1,0
+ zone:  esx3_h2_sw2_p6_p23_HUSVM_4B
+                1,6
+                1,23
+ zone:  esx4_h2_sw2_p7_FS5035
+                1,7
+                1,26
+                1,27
+ zone:  esx4_h2_sw2_p7_p0_VSP_G600_2
+                1,7
+                1,0
+ zone:  esx4_h2_sw2_p7_p23_HUSVM_4B
+                1,7
+                1,23
+ zone:  esx5_h2_sw2_p8_FS5035
+                1,8
+                1,26
+                1,27
+ zone:  esx5_h2_sw2_p8_p0_VSP_G600_2
+                1,8
+                1,0
+ zone:  esx5_h2_sw2_p8_p23_HUSVM_4B
+                1,8
+                1,23
+ zone:  esx6_h2_sw2_p9_FS5035
+                1,9
+                1,26
+                1,27
+ zone:  esx6_h2_sw2_p9_p0_VSP_G600_2
+                1,9
+                1,0
+ zone:  esx6_h2_sw2_p9_p23_HUSVM_4B
+                1,9
+                1,23
+ zone:  esx7_h2_sw2_p10_FS5035
+                1,10
+                1,26
+                1,27
+ zone:  esx7_h2_sw2_p10_p0_VSP_G600_2
+                1,10
+                1,0
+ zone:  esx7_h2_sw2_p10_p23_HUSVM_4B
+                1,10
+                1,23
+ zone:  esx8_h2_sw2_p11_FS5035
+                1,11
+                1,26
+                1,27
+ zone:  esx8_h2_sw2_p11_p0_VSP_G600_2
+                1,11
+                1,0
+ zone:  esx8_h2_sw2_p11_p23_HUSVM_4B
+                1,11
+                1,23
+ zone:  esx9_h2_sw2_p12_FS5035
+                1,12
+                1,26
+                1,27
+ zone:  esx9_h2_sw2_p12_p0_VSP_G600_2
+                1,12
+                1,0
+ zone:  esx9_h2_sw2_p12_p23_HUSVM_4B
+                1,12
+                1,23
+
+------------------------------------------------
+
+적용 후
+
+Defined configuration:
+ cfg:   IITP_SAN02
+
+                esx1_h2_sw2_p4_p0_VSP_G600_2; esx1_h2_sw2_p4_p23_HUSVM_4B; 
+
+                esx2_h2_sw2_p5_p0_VSP_G600_2; esx2_h2_sw2_p5_p23_HUSVM_4B;
+
+                esx3_h2_sw2_p6_p0_VSP_G600_2; esx3_h2_sw2_p6_p23_HUSVM_4B;
+
+                esx4_h2_sw2_p7_p0_VSP_G600_2; esx4_h2_sw2_p7_p23_HUSVM_4B;
+
+                esx5_h2_sw2_p8_p0_VSP_G600_2; esx5_h2_sw2_p8_p23_HUSVM_4B;
+
+                esx6_h2_sw2_p9_p0_VSP_G600_2; esx6_h2_sw2_p9_p23_HUSVM_4B;
+
+                esx7_h2_sw2_p10_p0_VSP_G600_2; esx7_h2_sw2_p10_p23_HUSVM_4B;
+
+                esx8_h2_sw2_p11_p0_VSP_G600_2; esx8_h2_sw2_p11_p23_HUSVM_4B;
+
+                esx9_h2_sw2_p12_p0_VSP_G600_2; esx9_h2_sw2_p12_p23_HUSVM_4B;
+
+                esx10_h2_sw2_p13_p0_VSP_G600_2; esx10_h2_sw2_p13_p23_HUSVM_4B;
+
+                esx11_h2_sw2_p14_p0_VSP_G600_2; esx11_h2_sw2_p14_p23_HUSVM_4B;
+
+                esx12_h2_sw2_p15_p0_VSP_G600_2; esx12_h2_sw2_p15_p23_HUSVM_4B;
+
+                esx13_h2_sw2_p2_p0_VSP_G600_2; 
+
+                esx14_h2_sw2_p3_p0_VSP_G600_2;
+
+                esx15_h2_sw2_p16_p0_VSP_G600_2;
+
+                esx16_h2_sw2_p17_p0_VSP_G600_2;
+
+                esx17_h2_sw2_p18_p0_VSP_G600_2;
+
+                esx18_h2_sw2_p19_p0_VSP_G600_2;
+
+                esx19_h2_sw2_p24_p1_VSP_G600_2;
+                 
+                esx20_h2_sw2_p25_p1_VSP_G600_2;
+
+
+                esx1_h2_sw2_p4_FS5035; esx2_h2_sw2_p5_FS5035;
+
+                esx3_h2_sw2_p6_FS5035; esx4_h2_sw2_p7_FS5035;
+
+                esx5_h2_sw2_p8_FS5035; esx6_h2_sw2_p9_FS5035;
+
+                esx7_h2_sw2_p10_FS5035; esx8_h2_sw2_p11_FS5035;
+
+                esx9_h2_sw2_p12_FS5035; esx10_h2_sw2_p13_FS5035;
+
+                esx11_h2_sw2_p14_FS5035; esx12_h2_sw2_p15_FS5035;
+
+                esx13_h2_sw2_p2_FS5035; esx14_h2_sw2_p3_FS5035;
+
+                esx15_h2_sw2_p16_FS5035; esx16_h2_sw2_p17_FS5035;
+
+                esx17_h2_sw2_p18_FS5035; esx18_h2_sw2_p19_FS5035;
+
+                esx19_h2_sw2_p24_FS5035; esx20_h2_sw2_p25_FS5035;
+
+
+                esx21_h2_sw2_p28_VSP_G600; esx22_h2_sw2_p29_VSP_G600;
+
+                esx21_h2_sw2_p28_HUS_VM; esx22_h2_sw2_p29_HUS_VM;
+
+                esx21_h2_sw2_p28_FS5035; esx22_h2_sw2_p29_FS5035
+
+
+ zone:  esx10_h2_sw2_p13_FS5035
+                1,13; 1,26; 1,27
+ zone:  esx10_h2_sw2_p13_p0_VSP_G600_2
+                1,13; 1,0; 1,1
+ zone:  esx10_h2_sw2_p13_p23_HUSVM_4B
+                1,13; 1,23
+ zone:  esx11_h2_sw2_p14_FS5035
+                1,14; 1,26; 1,27
+ zone:  esx11_h2_sw2_p14_p0_VSP_G600_2
+                1,14; 1,0; 1,1
+ zone:  esx11_h2_sw2_p14_p23_HUSVM_4B
+                1,14; 1,23
+ zone:  esx12_h2_sw2_p15_FS5035
+                1,15; 1,26; 1,27
+ zone:  esx12_h2_sw2_p15_p0_VSP_G600_2
+                1,15; 1,0; 1,1
+ zone:  esx12_h2_sw2_p15_p23_HUSVM_4B
+                1,15; 1,23
+ zone:  esx13_h2_sw2_p2_FS5035
+                1,2; 1,26; 1,27
+ zone:  esx13_h2_sw2_p2_p0_VSP_G600_2
+                1,2; 1,1; 1,0
+ zone:  esx14_h2_sw2_p3_FS5035
+                1,3; 1,26; 1,27
+ zone:  esx14_h2_sw2_p3_p0_VSP_G600_2
+                1,3; 1,1; 1,0
+ zone:  esx15_h2_sw2_p16_FS5035
+                1,16; 1,26; 1,27
+ zone:  esx15_h2_sw2_p16_p0_VSP_G600_2
+                1,16; 1,1; 1,0
+ zone:  esx16_h2_sw2_p17_FS5035
+                1,17; 1,26; 1,27
+ zone:  esx16_h2_sw2_p17_p0_VSP_G600_2
+                1,17; 1,1; 1,0
+ zone:  esx17_h2_sw2_p18_FS5035
+                1,18; 1,26; 1,27
+ zone:  esx17_h2_sw2_p18_p0_VSP_G600_2
+                1,18; 1,1; 1,0
+ zone:  esx18_h2_sw2_p19_FS5035
+                1,19; 1,26; 1,27
+ zone:  esx18_h2_sw2_p19_p0_VSP_G600_2
+                1,19; 1,1; 1,0
+ zone:  esx19_h2_sw2_p24_FS5035
+                1,24; 1,26; 1,27
+ zone:  esx19_h2_sw2_p24_p1_VSP_G600_2
+                1,1; 1,24; 1,0
+ zone:  esx1_h2_sw2_p4_FS5035
+                1,4; 1,26; 1,27
+ zone:  esx1_h2_sw2_p4_p0_VSP_G600_2
+                1,4; 1,0; 1,1
+ zone:  esx1_h2_sw2_p4_p23_HUSVM_4B
+                1,4; 1,23
+ zone:  esx20_h2_sw2_p25_FS5035
+                1,25; 1,26; 1,27
+ zone:  esx20_h2_sw2_p25_p1_VSP_G600_2
+                1,1; 1,25; 1,0
+ zone:  esx21_h2_sw2_p28_FS5035
+                1,28; 1,26; 1,27
+ zone:  esx21_h2_sw2_p28_HUS_VM
+                1,28; 1,20; 1,21; 1,22; 1,23
+ zone:  esx21_h2_sw2_p28_VSP_G600
+                1,28; 1,0; 1,1
+ zone:  esx22_h2_sw2_p29_FS5035
+                1,29; 1,26; 1,27
+ zone:  esx22_h2_sw2_p29_HUS_VM
+                1,29; 1,20; 1,21; 1,22; 1,23
+ zone:  esx22_h2_sw2_p29_VSP_G600
+                1,29; 1,0; 1,1
+ zone:  esx2_h2_sw2_p5_FS5035
+                1,5; 1,26; 1,27
+ zone:  esx2_h2_sw2_p5_p0_VSP_G600_2
+                1,5; 1,0; 1,1
+ zone:  esx2_h2_sw2_p5_p23_HUSVM_4B
+                1,5; 1,23
+ zone:  esx3_h2_sw2_p6_FS5035
+                1,6; 1,26; 1,27
+ zone:  esx3_h2_sw2_p6_p0_VSP_G600_2
+                1,6; 1,0; 1,1
+ zone:  esx3_h2_sw2_p6_p23_HUSVM_4B
+                1,6; 1,23
+ zone:  esx4_h2_sw2_p7_FS5035
+                1,7; 1,26; 1,27
+ zone:  esx4_h2_sw2_p7_p0_VSP_G600_2
+                1,7; 1,0; 1,1
+ zone:  esx4_h2_sw2_p7_p23_HUSVM_4B
+                1,7; 1,23
+ zone:  esx5_h2_sw2_p8_FS5035
+                1,8; 1,26; 1,27
+ zone:  esx5_h2_sw2_p8_p0_VSP_G600_2
+                1,8; 1,0; 1,1
+ zone:  esx5_h2_sw2_p8_p23_HUSVM_4B
+                1,8; 1,23
+ zone:  esx6_h2_sw2_p9_FS5035
+                1,9; 1,26; 1,27
+ zone:  esx6_h2_sw2_p9_p0_VSP_G600_2
+                1,9; 1,0; 1,1
+ zone:  esx6_h2_sw2_p9_p23_HUSVM_4B
+                1,9; 1,23
+ zone:  esx7_h2_sw2_p10_FS5035
+                1,10; 1,26; 1,27
+ zone:  esx7_h2_sw2_p10_p0_VSP_G600_2
+                1,10; 1,0; 1,1
+ zone:  esx7_h2_sw2_p10_p23_HUSVM_4B
+                1,10; 1,23
+ zone:  esx8_h2_sw2_p11_FS5035
+                1,11; 1,26; 1,27
+ zone:  esx8_h2_sw2_p11_p0_VSP_G600_2
+                1,11; 1,0; 1,1
+ zone:  esx8_h2_sw2_p11_p23_HUSVM_4B
+                1,11; 1,23
+ zone:  esx9_h2_sw2_p12_FS5035
+                1,12; 1,26; 1,27
+ zone:  esx9_h2_sw2_p12_p0_VSP_G600_2
+                1,12; 1,0; 1,1
+ zone:  esx9_h2_sw2_p12_p23_HUSVM_4B
+                1,12; 1,23
+
+ alias: FS5035A 1,26
+ alias: FS5035B 1,27
+ alias: HUSVM_1B
+                1,20
+ alias: HUSVM_2B
+                1,21
+ alias: HUSVM_3B
+                1,22
+ alias: HUSVM_4B
+                1,23
+ alias: VSP_G600_1
+                1,0
+ alias: VSP_G600_2
+                1,1
+ alias: esx10_h2_sw2_p13
+                1,13
+ alias: esx11_h2_sw2_p14
+                1,14
+ alias: esx12_h2_sw2_p15
+                1,15
+ alias: esx13_h2_sw2_p2
+                1,2
+ alias: esx14_h2_sw2_p3
+                1,3
+ alias: esx15_h2_sw2_p16
+                1,16
+ alias: esx16_h2_sw2_p17
+                1,17
+ alias: esx17_h2_sw2_p18
+                1,18
+ alias: esx18_h2_sw2_p19
+                1,19
+ alias: esx19_h2_sw2_p24
+                1,24
+ alias: esx1_h2_sw2_p4
+                1,4
+ alias: esx20_h2_sw2_p25
+                1,25
+ alias: esx2_h2_sw2_p5
+                1,5
+ alias: esx3_h2_sw2_p6
+                1,6
+ alias: esx4_h2_sw2_p7
+                1,7
+ alias: esx5_h2_sw2_p8
+                1,8
+ alias: esx6_h2_sw2_p9
+                1,9
+ alias: esx7_h2_sw2_p10
+                1,10
+ alias: esx8_h2_sw2_p11
+                1,11
+ alias: esx9_h2_sw2_p12
+                1,12
+
+Effective configuration:
+ cfg:   IITP_SAN02
+ zone:  esx10_h2_sw2_p13_FS5035
+                1,13
+                1,26
+                1,27
+ zone:  esx10_h2_sw2_p13_p0_VSP_G600_2
+                1,13
+                1,0
+                1,1
+ zone:  esx10_h2_sw2_p13_p23_HUSVM_4B
+                1,13
+                1,23
+ zone:  esx11_h2_sw2_p14_FS5035
+                1,14
+                1,26
+                1,27
+ zone:  esx11_h2_sw2_p14_p0_VSP_G600_2
+                1,14
+                1,0
+                1,1
+ zone:  esx11_h2_sw2_p14_p23_HUSVM_4B
+                1,14
+                1,23
+ zone:  esx12_h2_sw2_p15_FS5035
+                1,15
+                1,26
+                1,27
+ zone:  esx12_h2_sw2_p15_p0_VSP_G600_2
+                1,15
+                1,0
+                1,1
+ zone:  esx12_h2_sw2_p15_p23_HUSVM_4B
+                1,15
+                1,23
+ zone:  esx13_h2_sw2_p2_FS5035
+                1,2
+                1,26
+                1,27
+ zone:  esx13_h2_sw2_p2_p0_VSP_G600_2
+                1,2
+                1,1
+                1,0
+ zone:  esx14_h2_sw2_p3_FS5035
+                1,3
+                1,26
+                1,27
+ zone:  esx14_h2_sw2_p3_p0_VSP_G600_2
+                1,3
+                1,1
+                1,0
+ zone:  esx15_h2_sw2_p16_FS5035
+                1,16
+                1,26
+                1,27
+ zone:  esx15_h2_sw2_p16_p0_VSP_G600_2
+                1,16
+                1,1
+                1,0
+ zone:  esx16_h2_sw2_p17_FS5035
+                1,17
+                1,26
+                1,27
+ zone:  esx16_h2_sw2_p17_p0_VSP_G600_2
+                1,17
+                1,1
+                1,0
+ zone:  esx17_h2_sw2_p18_FS5035
+                1,18
+                1,26
+                1,27
+ zone:  esx17_h2_sw2_p18_p0_VSP_G600_2
+                1,18
+                1,1
+                1,0
+ zone:  esx18_h2_sw2_p19_FS5035
+                1,19
+                1,26
+                1,27
+ zone:  esx18_h2_sw2_p19_p0_VSP_G600_2
+                1,19
+                1,1
+                1,0
+ zone:  esx19_h2_sw2_p24_FS5035
+                1,24
+                1,26
+                1,27
+ zone:  esx19_h2_sw2_p24_p1_VSP_G600_2
+                1,1
+                1,24
+                1,0
+ zone:  esx1_h2_sw2_p4_FS5035
+                1,4
+                1,26
+                1,27
+ zone:  esx1_h2_sw2_p4_p0_VSP_G600_2
+                1,4
+                1,0
+                1,1
+ zone:  esx1_h2_sw2_p4_p23_HUSVM_4B
+                1,4
+                1,23
+ zone:  esx20_h2_sw2_p25_FS5035
+                1,25
+                1,26
+                1,27
+ zone:  esx20_h2_sw2_p25_p1_VSP_G600_2
+                1,1
+                1,25
+                1,0
+ zone:  esx21_h2_sw2_p28_FS5035
+                1,28
+                1,26
+                1,27
+ zone:  esx21_h2_sw2_p28_HUS_VM
+                1,28
+                1,20
+                1,21
+                1,22
+                1,23
+ zone:  esx21_h2_sw2_p28_VSP_G600
+                1,28
+                1,0
+                1,1
+ zone:  esx22_h2_sw2_p29_FS5035
+                1,29
+                1,26
+                1,27
+ zone:  esx22_h2_sw2_p29_HUS_VM
+                1,29
+                1,20
+                1,21
+                1,22
+                1,23
+ zone:  esx22_h2_sw2_p29_VSP_G600
+                1,29
+                1,0
+                1,1
+ zone:  esx2_h2_sw2_p5_FS5035
+                1,5
+                1,26
+                1,27
+ zone:  esx2_h2_sw2_p5_p0_VSP_G600_2
+                1,5
+                1,0
+                1,1
+ zone:  esx2_h2_sw2_p5_p23_HUSVM_4B
+                1,5
+                1,23
+ zone:  esx3_h2_sw2_p6_FS5035
+                1,6
+                1,26
+                1,27
+ zone:  esx3_h2_sw2_p6_p0_VSP_G600_2
+                1,6
+                1,0
+                1,1
+ zone:  esx3_h2_sw2_p6_p23_HUSVM_4B
+                1,6
+                1,23
+ zone:  esx4_h2_sw2_p7_FS5035
+                1,7
+                1,26
+                1,27
+ zone:  esx4_h2_sw2_p7_p0_VSP_G600_2
+                1,7
+                1,0
+                1,1
+ zone:  esx4_h2_sw2_p7_p23_HUSVM_4B
+                1,7
+                1,23
+ zone:  esx5_h2_sw2_p8_FS5035
+                1,8
+                1,26
+                1,27
+ zone:  esx5_h2_sw2_p8_p0_VSP_G600_2
+                1,8
+                1,0
+                1,1
+ zone:  esx5_h2_sw2_p8_p23_HUSVM_4B
+                1,8
+                1,23
+ zone:  esx6_h2_sw2_p9_FS5035
+                1,9
+                1,26
+                1,27
+ zone:  esx6_h2_sw2_p9_p0_VSP_G600_2
+                1,9
+                1,0
+                1,1
+ zone:  esx6_h2_sw2_p9_p23_HUSVM_4B
+                1,9
+                1,23
+ zone:  esx7_h2_sw2_p10_FS5035
+                1,10
+                1,26
+                1,27
+ zone:  esx7_h2_sw2_p10_p0_VSP_G600_2
+                1,10
+                1,0
+                1,1
+ zone:  esx7_h2_sw2_p10_p23_HUSVM_4B
+                1,10
+                1,23
+ zone:  esx8_h2_sw2_p11_FS5035
+                1,11
+                1,26
+                1,27
+ zone:  esx8_h2_sw2_p11_p0_VSP_G600_2
+                1,11
+                1,0
+                1,1
+ zone:  esx8_h2_sw2_p11_p23_HUSVM_4B
+                1,11
+                1,23
+ zone:  esx9_h2_sw2_p12_FS5035
+                1,12
+                1,26
+                1,27
+ zone:  esx9_h2_sw2_p12_p0_VSP_G600_2
+                1,12
+                1,0
+                1,1
+ zone:  esx9_h2_sw2_p12_p23_HUSVM_4B
+                1,12
+                1,23
+---------------------------------------------------------------------------------------------
+
+
+3. G600 관련 수정 정보
+
+** SAN Switch 1번**
+
+ zone:  esx21_h1_sw1_p28_FS5035
+                1,28; 1,26; 1,27
+ zone:  esx21_h1_sw1_p28_HUS_VM
+                1,28; 1,20; 1,21; 1,22; 1,23
+ zone:  esx21_h1_sw1_p28_VSP_G600
+                1,28; 1,0; 1,1
+
+ zone:  esx22_h1_sw1_p29_FS5035
+                1,29; 1,26; 1,27
+ zone:  esx22_h1_sw1_p29_HUS_VM
+                1,29; 1,20; 1,21; 1,22; 1,23
+ zone:  esx22_h1_sw1_p29_VSP_G600
+                1,29; 1,0; 1,1
+
+
+
+
+zoneadd "esx1_h1_sw1_p4_p0_VSP_G600_1", "1,1"
+zoneadd "esx2_h1_sw1_p5_p0_VSP_G600_1", "1,1"
+zoneadd "esx3_h1_sw1_p6_p0_VSP_G600_1", "1,1"
+zoneadd "esx4_h1_sw1_p7_p0_VSP_G600_1", "1,1"
+zoneadd "esx5_h1_sw1_p8_p0_VSP_G600_1", "1,1"
+zoneadd "esx6_h1_sw1_p9_p0_VSP_G600_1", "1,1"
+zoneadd "esx7_h1_sw1_p10_p0_VSP_G600_1", "1,1"
+zoneadd "esx8_h1_sw1_p11_p0_VSP_G600_1", "1,1"
+zoneadd "esx9_h1_sw1_p12_p0_VSP_G600_1", "1,1"
+zoneadd "esx10_h1_sw1_p13_p0_VSP_G600_1", "1,1"
+zoneadd "esx11_h1_sw1_p14_p0_VSP_G600_1", "1,1"
+zoneadd "esx12_h1_sw1_p15_p0_VSP_G600_1", "1,1"
+
+비대면은 포트 1.0을 추가해줘야함
+zoneadd "esx13_h1_sw1_p2_p0_VSP_G600_1", "1,0" 
+zoneadd "esx14_h1_sw1_p3_p0_VSP_G600_1", "1,0"
+zoneadd "esx15_h1_sw1_p16_p0_VSP_G600_1", "1,0"
+zoneadd "esx16_h1_sw1_p17_p0_VSP_G600_1", "1,0"
+zoneadd "esx17_h1_sw1_p18_p0_VSP_G600_1", "1,0"
+zoneadd "esx18_h1_sw1_p19_p0_VSP_G600_1", "1,0"
+zoneadd "esx19_h1_sw1_p24_p1_VSP_G600_1", "1,0" -> 이상 p1
+zoneadd "esx20_h1_sw1_p25_p1_VSP_G600_1", "1,0" -> 이상 p1
+
+cfgshow
+
+cfgadd "IITP_SAN01", "esx1_h1_sw1_p4_p0_VSP_G600_1" 
+cfgadd "IITP_SAN01", "esx2_h1_sw1_p5_p0_VSP_G600_1"
+cfgadd "IITP_SAN01", "esx3_h1_sw1_p6_p0_VSP_G600_1"
+cfgadd "IITP_SAN01", "esx4_h1_sw1_p7_p0_VSP_G600_1"
+cfgadd "IITP_SAN01", "esx5_h1_sw1_p8_p0_VSP_G600_1"
+cfgadd "IITP_SAN01", "esx6_h1_sw1_p9_p0_VSP_G600_1"
+cfgadd "IITP_SAN01", "esx7_h1_sw1_p10_p0_VSP_G600_1"
+cfgadd "IITP_SAN01", "esx8_h1_sw1_p11_p0_VSP_G600_1"
+cfgadd "IITP_SAN01", "esx9_h1_sw1_p12_p0_VSP_G600_1"
+cfgadd "IITP_SAN01", "esx10_h1_sw1_p13_p0_VSP_G600_1" 
+cfgadd "IITP_SAN01", "esx11_h1_sw1_p14_p0_VSP_G600_1" -> 이미 alreaday? zone add일땐 해줄필요없음 . zone create 시
+cfgadd "IITP_SAN01", "esx12_h1_sw1_p15_p0_VSP_G600_1"
+cfgadd "IITP_SAN01", "esx13_h1_sw1_p2_p0_VSP_G600_1"
+cfgadd "IITP_SAN01", "esx14_h1_sw1_p3_p0_VSP_G600_1"
+cfgadd "IITP_SAN01", "esx15_h1_sw1_p16_p0_VSP_G600_1"
+cfgadd "IITP_SAN01", "esx16_h1_sw1_p17_p0_VSP_G600_1"
+cfgadd "IITP_SAN01", "esx17_h1_sw1_p18_p0_VSP_G600_1"
+cfgadd "IITP_SAN01", "esx18_h1_sw1_p19_p0_VSP_G600_1"
+cfgadd "IITP_SAN01", "esx19_h1_sw1_p24_p1_VSP_G600_1"
+cfgadd "IITP_SAN01", "esx20_h1_sw1_p25_p1_VSP_G600_1"
+
+cfgshow
+
+cfgsave
+
+cfgenable "IITP_SAN01"
+
+-------------------------------------
+
+alias
+
+alicreate "esx1_h1_sw1_p4", "1,4"
+alicreate "esx2_h1_sw1_p5", "1,5"
+alicreate "esx3_h1_sw1_p6", "1,6"
+alicreate "esx4_h1_sw1_p7", "1,7"
+alicreate "esx5_h1_sw1_p8", "1,8"
+alicreate "esx6_h1_sw1_p9", "1,9"
+alicreate "esx7_h1_sw1_p10", "1,10"
+alicreate "esx8_h1_sw1_p11", "1,11"
+alicreate "esx9_h1_sw1_p12", "1,12"
+alicreate "esx10_h1_sw1_p13", "1,13"
+alicreate "esx11_h1_sw1_p14", "1,14"
+alicreate "esx12_h1_sw1_p15", "1,15"
+alicreate "esx13_h1_sw1_p2", "1,2"
+alicreate "esx14_h1_sw1_p3", "1,3"
+alicreate "esx15_h1_sw1_p16", "1,16"
+alicreate "esx16_h1_sw1_p17", "1,17"
+alicreate "esx17_h1_sw1_p18", "1,18"
+alicreate "esx18_h1_sw1_p19", "1,19"
+alicreate "esx19_h1_sw1_p24", "1,24"
+alicreate "esx20_h1_sw1_p25", "1,25"
+alicreate "HUSVM_1A", "1,20"
+alicreate "HUSVM_2A", "1,21"
+alicreate "HUSVM_3A", "1,22"
+alicreate "HUSVM_4A", "1,23"
+alicreate "VSP_G600_1", "1,0"
+alicreate "VSP_G600_2", "1,1"
+
+
+ zone:  esx1_h1_sw1_p4_FS5035
+                1,4; 1,26; 1,27
+ zone:  esx1_h1_sw1_p4_p0_VSP_G600_1
+                1,4; 1,0; 1,1
+ zone:  esx1_h1_sw1_p4_p23_HUSVM_4A
+                1,4; 1,23
+
+
+ zone:  esx1_h1_sw1_p4_FS5035
+                1,4; 1,26; 1,27
+ zone:  esx1_h1_sw1_p4_p0_VSP_G600_1
+                1,4; 1,0
+ zone:  esx1_h1_sw1_p4_p23_HUSVM_4A
+
+
+"esx1_h1_sw1_p4_VSP_G600_1" not found
+
+zoneremove "esx1_h1_sw1_p0_VSP_G600_1"
+cfgsave
+
+
+** San Switch 2번 **
+
+ 
+zone:  esx21_h2_sw2_p28_FS5035
+                1,28; 1,26; 1,27
+ zone:  esx21_h2_sw2_p28_HUS_VM
+                1,28; 1,20; 1,21; 1,22; 1,23
+ zone:  esx21_h2_sw2_p28_VSP_G600
+                1,28; 1,0; 1,1
+
+
+ zone:  esx22_h2_sw2_p29_FS5035
+                1,29; 1,26; 1,27
+ zone:  esx22_h2_sw2_p29_HUS_VM
+                1,29; 1,20; 1,21; 1,22; 1,23
+ zone:  esx22_h2_sw2_p29_VSP_G600
+                1,29; 1,0; 1,1
+
+
+
+zoneadd "esx1_h2_sw2_p4_p0_VSP_G600_2", "1,1"
+zoneadd "esx2_h2_sw2_p5_p0_VSP_G600_2", "1,1"
+zoneadd "esx3_h2_sw2_p6_p0_VSP_G600_2", "1,1"
+zoneadd "esx4_h2_sw2_p7_p0_VSP_G600_2", "1,1"
+zoneadd "esx5_h2_sw2_p8_p0_VSP_G600_2", "1,1"
+zoneadd "esx6_h2_sw2_p9_p0_VSP_G600_2", "1,1"
+zoneadd "esx7_h2_sw2_p10_p0_VSP_G600_2", "1,1"
+zoneadd "esx8_h2_sw2_p11_p0_VSP_G600_2", "1,1"
+zoneadd "esx9_h2_sw2_p12_p0_VSP_G600_2", "1,1"
+zoneadd "esx10_h2_sw2_p13_p0_VSP_G600_2", "1,1"
+zoneadd "esx11_h2_sw2_p14_p0_VSP_G600_2", "1,1"
+zoneadd "esx12_h2_sw2_p15_p0_VSP_G600_2", "1,1"
+
+비대면은 포트 1.0을 추가해줘야함
+zoneadd "esx13_h2_sw2_p2_p0_VSP_G600_2", "1,0"
+zoneadd "esx14_h2_sw2_p3_p0_VSP_G600_2", "1,0"
+zoneadd "esx15_h2_sw2_p16_p0_VSP_G600_2", "1,0"
+zoneadd "esx16_h2_sw2_p17_p0_VSP_G600_2", "1,0"
+zoneadd "esx17_h2_sw2_p18_p0_VSP_G600_2", "1,0"
+zoneadd "esx18_h2_sw2_p19_p0_VSP_G600_2", "1,0"
+zoneadd "esx19_h2_sw2_p24_p1_VSP_G600_2", "1,0" -> 이상 p1
+zoneadd "esx20_h2_sw2_p25_p1_VSP_G600_2", "1,0" -> 이상 p1
+
+cfgshow
+
+cfgadd "IITP_SAN02", "esx1_h2_sw2_p4_p0_VSP_G600_2"
+cfgadd "IITP_SAN02", "esx2_h2_sw2_p5_p0_VSP_G600_2"
+cfgadd "IITP_SAN02", "esx3_h2_sw2_p6_p0_VSP_G600_2"
+cfgadd "IITP_SAN02", "esx4_h2_sw2_p7_p0_VSP_G600_2"
+cfgadd "IITP_SAN02", "esx5_h2_sw2_p8_p0_VSP_G600_2"
+cfgadd "IITP_SAN02", "esx6_h2_sw2_p9_p0_VSP_G600_2"
+cfgadd "IITP_SAN02", "esx7_h2_sw2_p10_p0_VSP_G600_2"
+cfgadd "IITP_SAN02", "esx8_h2_sw2_p11_p0_VSP_G600_2"
+cfgadd "IITP_SAN02", "esx9_h2_sw2_p12_p0_VSP_G600_2"
+cfgadd "IITP_SAN02", "esx10_h2_sw2_p13_p0_VSP_G600_2"
+cfgadd "IITP_SAN02", "esx11_h2_sw2_p14_p0_VSP_G600_2"
+cfgadd "IITP_SAN02", "esx12_h2_sw2_p15_p0_VSP_G600_2" -> 이미 alreaday? zone add일땐 해줄필요없음 . zone create 시
+cfgadd "IITP_SAN02", "esx13_h2_sw2_p2_p0_VSP_G600_2"
+cfgadd "IITP_SAN02", "esx14_h2_sw2_p3_p0_VSP_G600_2"
+cfgadd "IITP_SAN02", "esx15_h2_sw2_p16_p0_VSP_G600_2" 
+cfgadd "IITP_SAN02", "esx16_h2_sw2_p17_p0_VSP_G600_2"
+cfgadd "IITP_SAN02", "esx17_h2_sw2_p18_p0_VSP_G600_2"
+cfgadd "IITP_SAN02", "esx18_h2_sw2_p19_p0_VSP_G600_2"
+cfgadd "IITP_SAN02", "esx19_h2_sw2_p24_p1_VSP_G600_2"
+cfgadd "IITP_SAN01", "esx20_h2_sw2_p25_p1_VSP_G600_2"
+
+cfgshow
+
+cfgsave
+
+cfgenable "IITP_SAN02"
+
+-------------------------------------
+
+alias
+
+alicreate "esx1_h2_sw2_p4", "1,4"
+alicreate "esx2_h2_sw2_p5", "1,5"
+alicreate "esx3_h2_sw2_p6", "1,6"
+alicreate "esx4_h2_sw2_p7", "1,7"
+alicreate "esx5_h2_sw2_p8", "1,8"
+alicreate "esx6_h2_sw2_p9", "1,9"
+alicreate "esx7_h2_sw2_p10", "1,10"
+alicreate "esx8_h2_sw2_p11", "1,11"
+alicreate "esx9_h2_sw2_p12", "1,12"
+alicreate "esx10_h2_sw2_p13", "1,13"
+alicreate "esx11_h2_sw2_p14", "1,14"
+alicreate "esx12_h2_sw2_p15", "1,15"
+alicreate "esx13_h2_sw2_p2", "1,2"
+alicreate "esx14_h2_sw2_p3", "1,3"
+alicreate "esx15_h2_sw2_p16", "1,16"
+alicreate "esx16_h2_sw2_p17", "1,17"
+alicreate "esx17_h2_sw2_p18", "1,18"
+alicreate "esx18_h2_sw2_p19", "1,19"
+alicreate "esx19_h2_sw2_p24", "1,24"
+alicreate "esx20_h2_sw2_p25", "1,25"
+alicreate "HUSVM_1B", "1,20"
+alicreate "HUSVM_2B", "1,21"
+alicreate "HUSVM_3B", "1,22"
+alicreate "HUSVM_4B", "1,23"
+alicreate "VSP_G600_1", "1,0"
+alicreate "VSP_G600_2", "1,1"
+
+cfgsave
+
+--------------------------------------------------------------------------------------------------------
+
+HUS-VM 정보
+
+** San Switch 1번 수정 정보 **
+
+포트 정보
+
+
+ zone:  esx21_h1_sw1_p28_HUS_VM
+                1,28; 1,20; 1,21; 1,22; 1,23
+
+ zone:  esx22_h1_sw1_p29_HUS_VM
+                1,29; 1,20; 1,21; 1,22; 1,23
+
+
+San Switch 1번
+
+cfg 정보
+
+esx1_h1_sw1_p4_p23_HUSVM_4A; 
+esx2_h1_sw1_p5_p23_HUSVM_4A;
+esx3_h1_sw1_p6_p23_HUSVM_4A;
+esx4_h1_sw1_p7_p23_HUSVM_4A;
+esx5_h1_sw1_p8_p23_HUSVM_4A;
+esx6_h1_sw1_p9_p23_HUSVM_4A;
+esx7_h1_sw1_p10_p23_HUSVM_4A;
+esx8_h1_sw1_p11_p23_HUSVM_4A;
+esx9_h1_sw1_p12_p23_HUSVM_4A;
+esx10_h1_sw1_p13_p23_HUSVM_4A;
+esx11_h1_sw1_p14_p23_HUSVM_4A;
+esx12_h1_sw1_p15_P23_HUSVM_4A;
+
+
+
+zone 정보
+
+ zone:  esx1_h1_sw1_p4_p23_HUSVM_4A
+                1,4; 1,23
+
+ zone:  esx2_h1_sw1_p5_p23_HUSVM_4A
+                1,5; 1,23
+
+ zone:  esx3_h1_sw1_p6_p23_HUSVM_4A
+                1,6; 1,23
+
+ zone:  esx4_h1_sw1_p7_p23_HUSVM_4A
+                1,7; 1,23
+
+ zone:  esx5_h1_sw1_p8_p23_HUSVM_4A
+                1,8; 1,23
+ 
+ zone:  esx6_h1_sw1_p9_p23_HUSVM_4A
+                1,9; 1,23
+ 
+ zone:  esx7_h1_sw1_p10_p23_HUSVM_4A
+                1,10; 1,23
+
+ zone:  esx8_h1_sw1_p11_p23_HUSVM_4A
+                1,11; 1,23
+
+ zone:  esx9_h1_sw1_p12_p23_HUSVM_4A
+                1,12; 1,23
+
+ zone:  esx10_h1_sw1_p13_p23_HUSVM_4A
+                1,13; 1,23
+
+ zone:  esx11_h1_sw1_p14_p23_HUSVM_4A
+                1,14; 1,23
+
+ zone:  esx12_h1_sw1_p15_P23_HUSVM_4A -> 왜 중복으로 들어가 있지? 대문자 P23 의 P가 대문자임 아래꺼랑 중복
+                1,15; 1,23
+
+ zone:  esx12_h1_sw1_p15_p23_HUSVM_4A -> 이거 중복됨
+                1,15; 1,23
+
+ zone:  esx21_h1_sw1_p28_HUS_VM -> 최근에 추가한거같음 / 이름 _4A빠져있음
+                1,28; 1,20; 1,21; 1,22; 1,23
+
+ zone:  esx22_h1_sw1_p29_HUS_VM  -> 최근에 추가한거같음 / 이름 _4A빠져있음
+                1,29; 1,20; 1,21; 1,22; 1,23
+
+
+ alias: HUSVM_1A
+                1,20
+ alias: HUSVM_2A
+                1,21
+ alias: HUSVM_3A
+                1,22
+ alias: HUSVM_4A
+                1,23
+
+
+Effective configuration:
+ cfg:   IITP_SAN01
+ zone:  esx10_h1_sw1_p13_p23_HUSVM_4A
+                1,13
+                1,23
+ zone:  esx11_h1_sw1_p14_p23_HUSVM_4A
+                1,14
+                1,23
+ zone:  esx12_h1_sw1_p15_P23_HUSVM_4A
+                1,15
+                1,23
+ zone:  esx1_h1_sw1_p4_p23_HUSVM_4A
+                1,4
+                1,23 
+ zone:  esx21_h1_sw1_p28_HUS_VM
+                1,28
+                1,20
+                1,21
+                1,22
+                1,23
+ zone:  esx22_h1_sw1_p29_HUS_VM
+                1,29
+                1,20
+                1,21
+                1,22
+                1,23
+ zone:  esx2_h1_sw1_p5_p23_HUSVM_4A
+                1,5
+                1,23
+ zone:  esx3_h1_sw1_p6_p23_HUSVM_4A
+                1,6
+                1,23
+ zone:  esx4_h1_sw1_p7_p23_HUSVM_4A
+                1,7
+                1,23
+ zone:  esx5_h1_sw1_p8_p23_HUSVM_4A
+                1,8
+                1,23
+ zone:  esx6_h1_sw1_p9_p23_HUSVM_4A
+                1,9
+                1,23
+ zone:  esx7_h1_sw1_p10_p23_HUSVM_4A
+                1,10
+                1,23
+ zone:  esx8_h1_sw1_p11_p23_HUSVM_4A
+                1,11
+                1,23
+ zone:  esx9_h1_sw1_p12_p23_HUSVM_4A
+                1,12
+                1,23
+
+---------------------------------------------------------
+
+config
+
+zoneadd "esx1_h1_sw1_p4_p23_HUSVM_4A", "1,20; 1,21; 1,22"
+zoneadd "esx2_h1_sw1_p5_p23_HUSVM_4A", "1,20; 1,21; 1,22"
+zoneadd "esx3_h1_sw1_p6_p23_HUSVM_4A", "1,20; 1,21; 1,22"
+zoneadd "esx4_h1_sw1_p7_p23_HUSVM_4A", "1,20; 1,21; 1,22"
+zoneadd "esx5_h1_sw1_p8_p23_HUSVM_4A", "1,20; 1,21; 1,22"
+zoneadd "esx6_h1_sw1_p9_p23_HUSVM_4A", "1,20; 1,21; 1,22"
+zoneadd "esx7_h1_sw1_p10_p23_HUSVM_4A", "1,20; 1,21; 1,22"
+zoneadd "esx8_h1_sw1_p11_p23_HUSVM_4A", "1,20; 1,21; 1,22"
+zoneadd "esx9_h1_sw1_p12_p23_HUSVM_4A", "1,20; 1,21; 1,22"
+zoneadd "esx10_h1_sw1_p13_p23_HUSVM_4A", "1,20; 1,21; 1,22"
+zoneadd "esx11_h1_sw1_p14_p23_HUSVM_4A", "1,20; 1,21; 1,22"
+zoneadd "esx12_h1_sw1_p15_P23_HUSVM_4A", "1,20; 1,21; 1,22" -> 애만 p가 대문자임
+
+cfgshow
+
+cfgsave
+
+cfgenable "IITP_SAN01"
+
+zoneremove  "esx12_h1_sw1_p15_p23_HUSVM_4A", "1,20; 1,21; 1,22"
+
+cfgshow 
+
+cfgsave
+
+cfgenable "IITP_SAN01"
+-----------------------------------------------------------------------
+
+
+수정 완료 후  확인
+
+     BR6510_SW1:FID128:admin> cfgshow
+Defined configuration:
+ cfg:   IITP_SAN01
+                esx10_h1_sw1_p13_p23_HUSVM_4A;
+                esx11_h1_sw1_p14_p23_HUSVM_4A;
+                 esx12_h1_sw1_p15_P23_HUSVM_4A;
+                esx1_h1_sw1_p4_p23_HUSVM_4A; 
+                esx2_h1_sw1_p5_p23_HUSVM_4A;
+                esx3_h1_sw1_p6_p23_HUSVM_4A;
+                esx4_h1_sw1_p7_p23_HUSVM_4A;
+                esx5_h1_sw1_p8_p23_HUSVM_4A;
+                esx6_h1_sw1_p9_p23_HUSVM_4A;
+                esx7_h1_sw1_p10_p23_HUSVM_4A;
+                esx8_h1_sw1_p11_p23_HUSVM_4A;
+                esx9_h1_sw1_p12_p23_HUSVM_4A;
+                esx21_h1_sw1_p28_HUS_VM; 
+                esx22_h1_sw1_p29_HUS_VM;
+              
+ zone:  esx10_h1_sw1_p13_p23_HUSVM_4A
+                1,13; 1,23; 1,20; 1,21; 1,22
+
+ zone:  esx11_h1_sw1_p14_p23_HUSVM_4A
+                1,14; 1,23; 1,20; 1,21; 1,22
+
+ zone:  esx12_h1_sw1_p15_P23_HUSVM_4A
+                1,15; 1,23; 1,20; 1,21; 1,22
+
+ zone:  esx12_h1_sw1_p15_p23_HUSVM_4A
+                1,15; 1,23
+ 
+ zone:  esx1_h1_sw1_p4_p23_HUSVM_4A
+                1,4; 1,23; 1,20; 1,21; 1,22
+
+ zone:  esx21_h1_sw1_p28_HUS_VM
+                1,28; 1,20; 1,21; 1,22; 1,23
+
+ zone:  esx22_h1_sw1_p29_HUS_VM
+                1,29; 1,20; 1,21; 1,22; 1,23
+
+ zone:  esx2_h1_sw1_p5_p23_HUSVM_4A
+                1,5; 1,23; 1,20; 1,21; 1,22
+ 
+ zone:  esx3_h1_sw1_p6_p23_HUSVM_4A
+                1,6; 1,23; 1,20; 1,21; 1,22
+
+ zone:  esx4_h1_sw1_p7_p23_HUSVM_4A
+                1,7; 1,23; 1,20; 1,21; 1,22
+
+ zone:  esx5_h1_sw1_p8_p23_HUSVM_4A
+                1,8; 1,23; 1,20; 1,21; 1,22
+
+ zone:  esx6_h1_sw1_p9_p23_HUSVM_4A
+                1,9; 1,23; 1,20; 1,21; 1,22
+ 
+ zone:  esx7_h1_sw1_p10_p23_HUSVM_4A
+                1,10; 1,23; 1,20; 1,21; 1,22
+
+ zone:  esx8_h1_sw1_p11_p23_HUSVM_4A
+                1,11; 1,23; 1,20; 1,21; 1,22
+ 
+ zone:  esx9_h1_sw1_p12_p23_HUSVM_4A
+                1,12; 1,23; 1,20; 1,21; 1,22
+
+ 
+ alias: HUSVM_1A
+                1,20
+ alias: HUSVM_2A
+                1,21
+ alias: HUSVM_3A
+                1,22
+ alias: HUSVM_4A
+                1,23
+ 
+Effective configuration:
+ cfg:   IITP_SAN01
+ 
+ zone:  esx10_h1_sw1_p13_p23_HUSVM_4A
+                1,13
+                1,23
+                1,20
+                1,21
+                1,22
+
+ zone:  esx11_h1_sw1_p14_p23_HUSVM_4A
+                1,14
+                1,23
+                1,20
+                1,21
+                1,22
+ 
+ zone:  esx12_h1_sw1_p15_P23_HUSVM_4A
+                1,15
+                1,23
+                1,20
+                1,21
+                1,22
+
+ zone:  esx1_h1_sw1_p4_p23_HUSVM_4A
+                1,4
+                1,23
+                1,20
+                1,21
+                1,22
+
+ zone:  esx21_h1_sw1_p28_HUS_VM
+                1,28
+                1,20
+                1,21
+                1,22
+                1,23
+ 
+ zone:  esx22_h1_sw1_p29_HUS_VM
+                1,29
+                1,20
+                1,21
+                1,22
+                1,23
+
+ zone:  esx2_h1_sw1_p5_p23_HUSVM_4A
+                1,5
+                1,23
+                1,20
+                1,21
+                1,22
+ 
+ zone:  esx3_h1_sw1_p6_p23_HUSVM_4A
+                1,6
+                1,23
+                1,20
+                1,21
+                1,22
+ 
+ zone:  esx4_h1_sw1_p7_p23_HUSVM_4A
+                1,7
+                1,23
+                1,20
+                1,21
+                1,22
+ 
+ zone:  esx5_h1_sw1_p8_p23_HUSVM_4A
+                1,8
+                1,23
+                1,20
+                1,21
+                1,22
+ 
+ zone:  esx6_h1_sw1_p9_p23_HUSVM_4A
+                1,9
+                1,23
+                1,20
+                1,21
+                1,22
+ 
+ zone:  esx7_h1_sw1_p10_p23_HUSVM_4A
+                1,10
+                1,23
+                1,20
+                1,21
+                1,22
+
+ zone:  esx8_h1_sw1_p11_p23_HUSVM_4A
+                1,11
+                1,23
+                1,20
+                1,21
+                1,22
+
+ zone:  esx9_h1_sw1_p12_p23_HUSVM_4A
+                1,12
+                1,23
+                1,20
+                1,21
+                1,22
+
+       
+          
+----------------------------------------
+
+IITP_SAN02 100.025
+
+Defined configuration:
+ cfg:   IITP_SAN02
+esx10_h2_sw2_p13_p23_HUSVM_4B;
+esx11_h2_sw2_p14_p23_HUSVM_4B;
+esx12_h2_sw2_p15_p23_HUSVM_4B;
+
+esx1_h2_sw2_p4_p23_HUSVM_4B; 
+esx2_h2_sw2_p5_p23_HUSVM_4B;
+esx3_h2_sw2_p6_p23_HUSVM_4B;
+esx4_h2_sw2_p7_p23_HUSVM_4B;
+esx5_h2_sw2_p8_p23_HUSVM_4B;
+esx6_h2_sw2_p9_p23_HUSVM_4B;
+esx7_h2_sw2_p10_p23_HUSVM_4B;
+esx8_h2_sw2_p11_p23_HUSVM_4B;
+esx9_h2_sw2_p12_p23_HUSVM_4B;
+esx21_h2_sw2_p28_HUS_VM; esx22_h2_sw2_p29_HUS_VM;
+ 
+
+ zone:  esx10_h2_sw2_p13_p23_HUSVM_4B
+                1,13; 1,23
+ zone:  esx11_h2_sw2_p14_p23_HUSVM_4B
+                1,14; 1,23
+ zone:  esx12_h2_sw2_p15_p23_HUSVM_4B
+                1,15; 1,23
+ zone:  esx1_h2_sw2_p4_p23_HUSVM_4B
+                1,4; 1,23
+ zone:  esx21_h2_sw2_p28_HUS_VM
+                1,28; 1,20; 1,21; 1,22; 1,23
+ zone:  esx22_h2_sw2_p29_HUS_VM
+                1,29; 1,20; 1,21; 1,22; 1,23
+ zone:  esx2_h2_sw2_p5_p23_HUSVM_4B
+                1,5; 1,23
+ zone:  esx3_h2_sw2_p6_p23_HUSVM_4B
+                1,6; 1,23
+ zone:  esx4_h2_sw2_p7_p23_HUSVM_4B
+                1,7; 1,23
+ zone:  esx5_h2_sw2_p8_p23_HUSVM_4B
+                1,8; 1,23
+ zone:  esx6_h2_sw2_p9_p23_HUSVM_4B
+                1,9; 1,23
+ zone:  esx7_h2_sw2_p10_p23_HUSVM_4B
+                1,10; 1,23
+ zone:  esx8_h2_sw2_p11_p23_HUSVM_4B
+                1,11; 1,23
+ zone:  esx9_h2_sw2_p12_p23_HUSVM_4B
+                1,12; 1,23
+ alias: FS5035A 1,26
+ alias: FS5035B 1,27
+
+Effective configuration:
+ cfg:   IITP_SAN02
+ 
+ zone:  esx10_h2_sw2_p13_p23_HUSVM_4B
+                1,13
+                1,23
+ zone:  esx11_h2_sw2_p14_p23_HUSVM_4B
+                1,14
+                1,23
+ zone:  esx12_h2_sw2_p15_p23_HUSVM_4B
+                1,15
+                1,23
+ zone:  esx1_h2_sw2_p4_p23_HUSVM_4B
+                1,4
+                1,23
+ zone:  esx21_h2_sw2_p28_HUS_VM
+                1,28
+                1,20
+                1,21
+                1,22
+                1,23
+ zone:  esx22_h2_sw2_p29_HUS_VM
+                1,29
+                1,20
+                1,21
+                1,22
+                1,23
+ zone:  esx2_h2_sw2_p5_p23_HUSVM_4B
+                1,5
+                1,23
+ zone:  esx3_h2_sw2_p6_p23_HUSVM_4B
+                1,6
+                1,23
+ zone:  esx4_h2_sw2_p7_p23_HUSVM_4B
+                1,7
+                1,23
+ zone:  esx5_h2_sw2_p8_p23_HUSVM_4B
+                1,8
+                1,23
+ zone:  esx6_h2_sw2_p9_p23_HUSVM_4B
+                1,9
+                1,23
+ zone:  esx7_h2_sw2_p10_p23_HUSVM_4B
+                1,10
+                1,23
+ zone:  esx8_h2_sw2_p11_p23_HUSVM_4B
+                1,11
+                1,23
+ zone:  esx9_h2_sw2_p12_p23_HUSVM_4B
+                1,12
+                1,23
+
+----------------------------------------
+
+zoneadd "esx1_h2_sw2_p4_p23_HUSVM_4B", "1,20; 1,21; 1,22"
+zoneadd "esx2_h2_sw2_p5_p23_HUSVM_4B", "1,20; 1,21; 1,22"
+zoneadd "esx3_h2_sw2_p6_p23_HUSVM_4B", "1,20; 1,21; 1,22"
+zoneadd "esx4_h2_sw2_p7_p23_HUSVM_4B", "1,20; 1,21; 1,22"
+zoneadd "esx5_h2_sw2_p8_p23_HUSVM_4B", "1,20; 1,21; 1,22"
+zoneadd "esx6_h2_sw2_p9_p23_HUSVM_4B", "1,20; 1,21; 1,22"
+zoneadd "esx7_h2_sw2_p10_p23_HUSVM_4B", "1,20; 1,21; 1,22"
+zoneadd "esx8_h2_sw2_p11_p23_HUSVM_4B", "1,20; 1,21; 1,22"
+zoneadd "esx9_h2_sw2_p12_p23_HUSVM_4B", "1,20; 1,21; 1,22"
+zoneadd "esx10_h2_sw2_p13_p23_HUSVM_4B", "1,20; 1,21; 1,22"
+zoneadd "esx11_h2_sw2_p14_p23_HUSVM_4B", "1,20; 1,21; 1,22"
+zoneadd "esx12_h2_sw2_p15_p23_HUSVM_4B", "1,20; 1,21; 1,22"
+
+cfgshow
+
+cfgenable "IITP_SAN02"
+
+cfgsave
+
+----------------------------------------
+ cfg:   IITP_SAN02
+esx10_h2_sw2_p13_p23_HUSVM_4B;
+esx11_h2_sw2_p14_p23_HUSVM_4B;
+esx12_h2_sw2_p15_p23_HUSVM_4B;
+
+esx1_h2_sw2_p4_p23_HUSVM_4B;
+esx2_h2_sw2_p5_p23_HUSVM_4B;
+esx3_h2_sw2_p6_p23_HUSVM_4B;
+esx4_h2_sw2_p7_p23_HUSVM_4B;
+esx5_h2_sw2_p8_p23_HUSVM_4B;
+esx6_h2_sw2_p9_p23_HUSVM_4B;
+esx7_h2_sw2_p10_p23_HUSVM_4B;
+esx8_h2_sw2_p11_p23_HUSVM_4B;
+esx9_h2_sw2_p12_p23_HUSVM_4B;
+esx21_h2_sw2_p28_HUS_VM; esx22_h2_sw2_p29_HUS_VM;
+
+ zone:  esx10_h2_sw2_p13_p23_HUSVM_4B
+                1,13; 1,23; 1,20; 1,21; 1,22
+ zone:  esx11_h2_sw2_p14_p23_HUSVM_4B
+                1,14; 1,23; 1,20; 1,21; 1,22
+ zone:  esx12_h2_sw2_p15_p23_HUSVM_4B
+                1,15; 1,23; 1,20; 1,21; 1,22
+ zone:  esx1_h2_sw2_p4_p23_HUSVM_4B
+                1,4; 1,23; 1,20; 1,21; 1,22
+ zone:  esx21_h2_sw2_p28_HUS_VM
+                1,28; 1,20; 1,21; 1,22; 1,23
+ zone:  esx22_h2_sw2_p29_HUS_VM
+                1,29; 1,20; 1,21; 1,22; 1,23
+ zone:  esx2_h2_sw2_p5_p23_HUSVM_4B
+                1,5; 1,23; 1,20; 1,21; 1,22
+ zone:  esx3_h2_sw2_p6_p23_HUSVM_4B
+                1,6; 1,23; 1,20; 1,21; 1,22
+ zone:  esx4_h2_sw2_p7_p23_HUSVM_4B
+                1,7; 1,23; 1,20; 1,21; 1,22
+ zone:  esx5_h2_sw2_p8_p23_HUSVM_4B
+                1,8; 1,23; 1,20; 1,21; 1,22
+ zone:  esx6_h2_sw2_p9_p23_HUSVM_4B
+                1,9; 1,23; 1,20; 1,21; 1,22
+ zone:  esx7_h2_sw2_p10_p23_HUSVM_4B
+                1,10; 1,23; 1,20; 1,21; 1,22
+ zone:  esx8_h2_sw2_p11_p23_HUSVM_4B
+                1,11; 1,23; 1,20; 1,21; 1,22
+ zone:  esx9_h2_sw2_p12_p23_HUSVM_4B
+                1,12; 1,23; 1,20; 1,21; 1,22
+				
+ alias: FS5035A 1,26
+ alias: FS5035B 1,27
+
+Effective configuration:
+ cfg:   IITP_SAN02
+ 
+ zone:  esx10_h2_sw2_p13_p23_HUSVM_4B
+                1,13
+                1,23
+                1,20
+                1,21
+                1,22
+ zone:  esx11_h2_sw2_p14_p23_HUSVM_4B
+                1,14
+                1,23
+                1,20
+                1,21
+                1,22
+ zone:  esx12_h2_sw2_p15_p23_HUSVM_4B
+                1,15
+                1,23
+                1,20
+                1,21
+                1,22
+ zone:  esx1_h2_sw2_p4_p23_HUSVM_4B
+                1,4
+                1,23
+                1,20
+                1,21
+                1,22
+ zone:  esx21_h2_sw2_p28_HUS_VM
+                1,28
+                1,20
+                1,21
+                1,22
+                1,23
+ zone:  esx22_h2_sw2_p29_HUS_VM
+                1,29
+                1,20
+                1,21
+                1,22
+                1,23
+ zone:  esx2_h2_sw2_p5_p23_HUSVM_4B
+                1,5
+                1,23
+                1,20
+                1,21
+                1,22
+ zone:  esx3_h2_sw2_p6_p23_HUSVM_4B
+                1,6
+                1,23
+                1,20
+                1,21
+                1,22
+ zone:  esx4_h2_sw2_p7_p23_HUSVM_4B
+                1,7
+                1,23
+                1,20
+                1,21
+                1,22
+ zone:  esx5_h2_sw2_p8_p23_HUSVM_4B
+                1,8
+                1,23
+                1,20
+                1,21
+                1,22
+ zone:  esx6_h2_sw2_p9_p23_HUSVM_4B
+                1,9
+                1,23
+                1,20
+                1,21
+                1,22
+ zone:  esx7_h2_sw2_p10_p23_HUSVM_4B
+                1,10
+                1,23
+                1,20
+                1,21
+                1,22
+ zone:  esx8_h2_sw2_p11_p23_HUSVM_4B
+                1,11
+                1,23
+                1,20
+                1,21
+                1,22
+ zone:  esx9_h2_sw2_p12_p23_HUSVM_4B
+                1,12
+                1,23
+                1,20
+                1,21
+                1,22
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+** San Switch 2번 수정정보** 
+예시)))
+
+zonecreate "esx21_h2_sw2_p28_HUS_VM", "1,28; 1,20; 1,21; 1,22;"
+
+cfgshow
+
+cfgadd "IITP_SAN02", "esx21_h2_sw2_p28_HUS_VM"
+
+cfgsave
+
+cfgenable "IITP_SAN02"
+
+zoneremove "esx21_h2_sw2_p28_FS5035" "1,29; 1,0; 1,1"
+
+cfgremove "IITP_SAN01", esx21_h2_sw2_p28_FS5035;
+
+cfgshow
+cfgsave
+cfgenable "IITP_SAN01"
+
+--------------------------------------------------------------------
+SAN 100.204
+zoneadd "esx1_h1_sw1_p4_P23_HUSVM_4A", "1,20; 1,21; 1,22;"
+zoneadd "esx2_h1_sw1_p4_P23_HUSVM_4A", "1,20; 1,21; 1,22;"
+zoneadd "esx3_h1_sw1_p4_P23_HUSVM_4A", "1,20; 1,21; 1,22;"
+zoneadd "esx4_h1_sw1_p4_P23_HUSVM_4A", "1,20; 1,21; 1,22;"
+zoneadd "esx5_h1_sw1_p4_P23_HUSVM_4A", "1,20; 1,21; 1,22;"
+zoneadd "esx6_h1_sw1_p4_P23_HUSVM_4A", "1,20; 1,21; 1,22;"
+zoneadd "esx7_h1_sw1_p4_P23_HUSVM_4A", "1,20; 1,21; 1,22;"
+zoneadd "esx8_h1_sw1_p4_P23_HUSVM_4A", "1,20; 1,21; 1,22;"
+zoneadd "esx9_h1_sw1_p4_P23_HUSVM_4A", "1,20; 1,21; 1,22;"
+zoneadd "esx10_h1_sw1_p4_P23_HUSVM_4A", "1,20; 1,21; 1,22;"
+zoneadd "esx11_h1_sw1_p4_P23_HUSVM_4A", "1,20; 1,21; 1,22;"
+zoneadd "esx12_h1_sw1_p4_P23_HUSVM_4A", "1,20; 1,21; 1,22;"
+
+cfgadd "IITP_SAN01", "esx1_h1_sw1_p4_p23_HUSVM_4A", "1,20; 1,21; 1,22;"
+cfgadd "IITP_SAN01", "esx1_h2_sw1_p4_p23_HUSVM_4A", "1,20; 1,21; 1,22;"
+cfgadd "IITP_SAN01", "esx1_h3_sw1_p4_p23_HUSVM_4A", "1,20; 1,21; 1,22;"
+cfgadd "IITP_SAN01", "esx1_h4_sw1_p4_p23_HUSVM_4A", "1,20; 1,21; 1,22;"
+cfgadd "IITP_SAN01", "esx1_h5_sw1_p4_p23_HUSVM_4A", "1,20; 1,21; 1,22;"
+cfgadd "IITP_SAN01", "esx1_h6_sw1_p4_p23_HUSVM_4A", "1,20; 1,21; 1,22;"
+cfgadd "IITP_SAN01", "esx1_h7_sw1_p4_p23_HUSVM_4A", "1,20; 1,21; 1,22;"
+cfgadd "IITP_SAN01", "esx1_h8_sw1_p4_p23_HUSVM_4A", "1,20; 1,21; 1,22;"
+cfgadd "IITP_SAN01", "esx1_h9_sw1_p4_p23_HUSVM_4A", "1,20; 1,21; 1,22;"
+cfgadd "IITP_SAN01", "esx1_h10_sw1_p4_p23_HUSVM_4A", "1,20; 1,21; 1,22;"
+cfgadd "IITP_SAN01", "esx1_h11_sw1_p4_p23_HUSVM_4A", "1,20; 1,21; 1,22;"
+cfgadd "IITP_SAN01", "esx1_h12_sw1_p4_p23_HUSVM_4A", "1,20; 1,21; 1,22;"
+
+
+cfgshow
+
+cfgenable "IITP_SAN01"
+
+cfgsave
+
+zoneremove "esx21_h1_sw1_p28_HUS_VM" "1,28; 1,20; 1,21; 1,22; 1,23;"
+zoneremove "esx22_h1_sw1_p29_HUS_VM" "1,29; 1,20; 1,21; 1,22; 1,23;"
+cfgremove "IITP_SAN01", esx21_h1_sw1_p28_HUS_VM;
+cfgremove "IITP_SAN01", esx22_h1_sw1_p29_HUS_VM;
+
+cfgshow
+cfgenable "IITP_SAN01"
+cfgsave
+
+zonecreate "esx21_h1_sw1_p28_HUSVM_4A" "1,28; 1,20; 1,21; 1,22; 1,23;"
+zonecreate "esx22_h1_sw1_p29_HUSVM_4A" "1,29; 1,20; 1,21; 1,22; 1,23;"
+cfgcreate "IITP_SAN01", "esx21_h1_sw1_p28_HUSVM_4A;", "1,28; 1,20; 1,21; 1,22; 1,23"
+cfgcreate "IITP_SAN01", "esx22_h1_sw1_p29_HUSVM_4A;", "1,29; 1,20; 1,21; 1,22; 1,23"
+
+cfgshow
+cfgenable "IITP_SAN01"
+cfgsave
+
+--------------------------------------------------------------------------
+SAN 100.205
+
+zoneadd "esx1_h2_sw2_p4_P23_HUSVM_4B", "1,20; 1,21; 1,22;"
+zoneadd "esx2_h2_sw2_p4_P23_HUSVM_4B", "1,20; 1,21; 1,22;"
+zoneadd "esx3_h2_sw2_p4_P23_HUSVM_4B", "1,20; 1,21; 1,22;"
+zoneadd "esx4_h2_sw2_p4_P23_HUSVM_4B", "1,20; 1,21; 1,22;"
+zoneadd "esx5_h2_sw2_p4_P23_HUSVM_4B", "1,20; 1,21; 1,22;"
+zoneadd "esx6_h2_sw2_p4_P23_HUSVM_4B", "1,20; 1,21; 1,22;"
+zoneadd "esx7_h2_sw2_p4_P23_HUSVM_4B", "1,20; 1,21; 1,22;"
+zoneadd "esx8_h2_sw2_p4_P23_HUSVM_4B", "1,20; 1,21; 1,22;"
+zoneadd "esx9_h2_sw2_p4_P23_HUSVM_4B", "1,20; 1,21; 1,22;"
+zoneadd "esx10_h2_sw2_p4_P23_HUSVM_4B", "1,20; 1,21; 1,22;"
+zoneadd "esx11_h2_sw2_p4_P23_HUSVM_4B", "1,20; 1,21; 1,22;"
+zoneadd "esx12_h2_sw2_p4_P23_HUSVM_4B", "1,20; 1,21; 1,22;"
+
+
+
+cfgadd "IITP_SAN02", "esx1_h2_sw2_p4_p23_HUSVM_4B", "1,20; 1,21; 1,22;"
+cfgadd "IITP_SAN02", "esx2_h2_sw2_p4_p23_HUSVM_4B", "1,20; 1,21; 1,22;"
+cfgadd "IITP_SAN02", "esx3_h2_sw2_p4_p23_HUSVM_4B", "1,20; 1,21; 1,22;"
+cfgadd "IITP_SAN02", "esx4_h2_sw2_p4_p23_HUSVM_4B", "1,20; 1,21; 1,22;"
+cfgadd "IITP_SAN02", "esx5_h2_sw2_p4_p23_HUSVM_4B", "1,20; 1,21; 1,22;"
+cfgadd "IITP_SAN02", "esx6_h2_sw2_p4_p23_HUSVM_4B", "1,20; 1,21; 1,22;"
+cfgadd "IITP_SAN02", "esx7_h2_sw2_p4_p23_HUSVM_4B", "1,20; 1,21; 1,22;"
+cfgadd "IITP_SAN02", "esx8_h2_sw2_p4_p23_HUSVM_4B", "1,20; 1,21; 1,22;"
+cfgadd "IITP_SAN02", "esx9_h2_sw2_p4_p23_HUSVM_4B", "1,20; 1,21; 1,22;"
+cfgadd "IITP_SAN02", "esx10_h2_sw2_p4_p23_HUSVM_4B", "1,20; 1,21; 1,22;"
+cfgadd "IITP_SAN02", "esx11_h2_sw2_p4_p23_HUSVM_4B", "1,20; 1,21; 1,22;"
+cfgadd "IITP_SAN02", "esx12_h2_sw2_p4_p23_HUSVM_4B", "1,20; 1,21; 1,22;"
+
+cfgshow
+
+cfgenable "IITP_SAN02"
+
+cfgsave
+
+
+zoneremove "esx21_h2_sw2_p28_HUS_VM" "1,28; 1,20; 1,21; 1,22; 1,23;"
+zoneremove "esx22_h2_sw2_p29_HUS_VM" "1,29; 1,20; 1,21; 1,22; 1,23;"
+cfgremove "IITP_SAN02", esx21_h2_sw2_p28_HUS_VM;
+cfgremove "IITP_SAN02", esx22_h2_sw2_p29_HUS_VM;
+
+cfgshow
+cfgenable "IITP_SAN02"
+cfgsave
+
+zonecreate "esx21_h2_sw2_p28_HUSVM_4B", "1,28; 1,20; 1,21; 1,22; 1,23;"
+zonecreate "esx22_h2_sw2_p29_HUSVM_4B", "1,29; 1,20; 1,21; 1,22; 1,23;"
+cfgcreate "IITP_SAN02", "esx21_h1_sw1_p28_HUSVM_4A;", "1,28; 1,20; 1,21; 1,22; 1,23"
+cfgcreate "IITP_SAN02", "esx22_h1_sw1_p29_HUSVM_4A;", "1,29; 1,20; 1,21; 1,22; 1,23"
+
+cfgshow
+cfgenable "IITP_SAN02"
+cfgsave
